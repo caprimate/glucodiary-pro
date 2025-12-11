@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
 import { supabase } from './supabase'
 import { GlucoseReading } from './types'
-import Auth from './components/Auth'
-import GlucoseForm from './components/GlucoseForm'
-import GlucoseChart from './components/GlucoseChart'
-import GlucoseTable from './components/GlucoseTable'
-import Stats from './components/Stats' // Nueva componente para promedios
+import { Auth } from './components/Auth'
+import { GlucoseForm } from './components/GlucoseForm'
+import { GlucoseChart } from './components/GlucoseChart'
+import { GlucoseTable } from './components/GlucoseTable'
+import { Stats } from './components/Stats'
 
 function App() {
   const [user, setUser] = useState<any>(null)
