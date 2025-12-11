@@ -42,4 +42,3 @@ export default function GlucoseChart({ readings }: Props) {
     </div>
   )
 }
-export default GlucoseChart
