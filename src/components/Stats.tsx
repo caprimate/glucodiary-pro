@@ -33,3 +33,4 @@ export default function Stats({ readings }: Props) {
     </div>
   )
 }
+export default Stats
