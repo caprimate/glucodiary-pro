@@ -74,3 +74,4 @@ export default function GlucoseTable({ readings, onDelete }: Props) {
     </div>
   )
 }
+export default GlucoseTable
