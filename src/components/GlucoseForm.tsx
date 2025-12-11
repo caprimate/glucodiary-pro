@@ -70,3 +70,4 @@ export default function GlucoseForm({ onSave }: Props) {
     </div>
   )
 }
+export default GlucoseForm
